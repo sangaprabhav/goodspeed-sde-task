@@ -1,0 +1,26 @@
+{
+  "name": "goodspeed-knowledge-base",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "setup": "pnpm install && pnpm exec playwright install chromium && node scripts/setup.mjs",
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "test": "turbo test",
+    "test:e2e": "playwright test",
+    "check": "pnpm lint && pnpm typecheck && pnpm test && pnpm build && pnpm test:e2e"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9",
+    "@next/eslint-plugin-next": "15.5.19",
+    "@playwright/test": "1.52.0",
+    "dotenv": "^16.4.7",
+    "eslint": "^9",
+    "globals": "^16",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8"
+  }
+}
