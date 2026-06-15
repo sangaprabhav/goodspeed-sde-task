@@ -19,8 +19,10 @@ pnpm --version
 From the repository root:
 
 ```bash
-pnpm setup
+pnpm run setup
 ```
+
+Use `pnpm run setup`, not `pnpm setup`. The latter is pnpm's built-in shell configuration command and does not install this project's dependencies.
 
 The setup command:
 

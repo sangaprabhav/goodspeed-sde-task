@@ -86,10 +86,12 @@ This repository is my submission for the Goodspeed Software Developer Technical 
 ### 1. Install and prepare the environment
 
 ```bash
-pnpm setup
+pnpm run setup
 ```
 
 This installs workspace dependencies, installs Chromium for the end-to-end test suite, and creates `.env` from `.env.example` when `.env` does not already exist.
+
+Use `pnpm run setup`, not `pnpm setup`. The latter is pnpm's built-in shell configuration command and does not install this project's dependencies.
 
 ### 2. Configure environment variables
 
@@ -150,7 +152,7 @@ This runs linting, TypeScript checks, unit tests, both production builds, and th
 
 | Command | Purpose |
 | --- | --- |
-| `pnpm setup` | Install dependencies and create `.env` |
+| `pnpm run setup` | Install dependencies and create `.env` |
 | `pnpm dev` | Run the web and API development servers |
 | `pnpm lint` | Run ESLint across workspaces |
 | `pnpm typecheck` | Run TypeScript checks |

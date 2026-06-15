@@ -120,7 +120,7 @@ Show:
 
 "The monorepo separates the web app, API, shared types, provider package, and migrations.
 
-A developer can run `pnpm setup`, configure the generated environment file, apply the migrations, and start both applications with `pnpm dev`.
+A developer can run `pnpm run setup`, configure the generated environment file, apply the migrations, and start both applications with `pnpm dev`.
 
 The complete quality gate is `pnpm check`. It runs linting, TypeScript checks, 15 focused tests, and both production builds. The same checks run in GitHub Actions."
 
