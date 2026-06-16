@@ -407,14 +407,4 @@ pnpm test:e2e
 - [Five-minute Loom script](docs/LOOM_SCRIPT.md)
 - [AI-assisted development walkthrough](docs/AI_USAGE.md)
 
-## Submission Checklist
 
-- [ ] Add the application Loom URL
-- [ ] Add the AI-usage Loom URL
-- [ ] Push the complete repository to GitHub
-- [ ] Invite `team@goodspeed.studio` if the repository is private
-- [ ] Confirm CI passes on the submitted commit
-- [ ] Verify setup from a clean clone
-- [ ] Apply all Supabase migrations
-- [ ] Test signup, document ingestion, chat, citations, reindexing, and logout
-- [ ] Test data isolation with two different users
