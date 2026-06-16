@@ -2,13 +2,10 @@
 
 This document provides the script for the required walkthrough explaining how AI accelerated development.
 
-## Suggested Length
-
-Two to four minutes is sufficient unless Goodspeed requests otherwise.
 
 ## Script
 
-"For this project I used Codex as an engineering collaborator rather than as a replacement for technical judgment.
+For this project I used Codex and Cursor as engineering collaborators rather than as a replacement for technical judgment.
 
 I used it in four main ways: codebase exploration, implementation support, review, and verification.
 
@@ -32,35 +29,9 @@ The repository now has a single `pnpm check` command that runs linting, typechec
 
 My overall approach was to use AI for faster exploration and a tighter feedback loop while keeping architectural choices, risk assessment, and final verification under my control."
 
-## Useful Screens to Show
 
-While speaking, show:
 
-1. The atomic-ingestion test
-2. The ingestion service
-3. The provider interfaces
-4. The CI workflow
-5. Successful `pnpm check` output
-6. The commit or diff containing the reviewed improvements
-
-## Honest AI-Usage Principles
-
-The walkthrough should communicate:
-
-- AI accelerated exploration and iteration.
-- You reviewed suggestions rather than automatically applying them.
-- Architectural decisions were evaluated against requirements.
-- Tests and builds verified generated or assisted changes.
-- AI helped find failure paths, not merely produce boilerplate.
-
-Avoid claiming:
-
-- That every line was written manually
-- That AI designed the entire system without your input
-- That passing unit tests proves live Supabase integration
-- That arbitrary embedding dimensions can be swapped without migration
-
-## Examples of Human Decisions to Highlight
+## Human Decisions to Highlight
 
 - Keeping RLS as the authorization boundary
 - Separating chat and embedding provider ports

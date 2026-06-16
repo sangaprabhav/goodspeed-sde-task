@@ -6,7 +6,8 @@ This repository is my submission for the Goodspeed Software Developer Technical 
 
 ## Walkthrough
 
-- **Application walkthrough:** [Add Loom URL](#)
+- **Application walkthrough:** [ https://www.loom.com/share/18abfc91843444e5b7131e8fb2c65957 ]
+- **AI Usage Walkthrough:** [ https://www.loom.com/share/8262b31f52d24e718f692d5c4ccc591e ]
 
 
 ## What Is Included
