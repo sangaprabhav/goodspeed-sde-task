@@ -4,12 +4,10 @@ A full-stack retrieval-augmented generation application where authenticated user
 
 This repository is my submission for the Goodspeed Software Developer Technical Assessment.
 
-## Walkthroughs
-
-> Replace both placeholders before submitting the repository.
+## Walkthrough
 
 - **Application walkthrough:** [Add Loom URL](#)
-- **How I used AI to accelerate development:** [Add Loom URL](#)
+
 
 ## What Is Included
 
@@ -106,6 +104,10 @@ SUPABASE_SERVICE_ROLE_KEY=
 
 OPENROUTER_API_KEY=
 ```
+
+A shared Supabase project is available for reviewers at `https://hkohlroazlvpvkjrxnlo.supabase.co`. Contact me for the anon and service-role keys, or use your own project and fill in `.env` from the template above.
+
+If you use the shared project, skip Step 3.
 
 The default configuration uses OpenRouter for both chat and embeddings. See [AI providers](docs/AI_PROVIDERS.md) for OpenAI, Groq, Together AI, OpenRouter, and Ollama examples.
 
